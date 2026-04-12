@@ -8,7 +8,7 @@ I build clean, modern websites for small businesses and startups.
 - Custom web design
 
 ## Projects
-- Coming soon...
+- [Kalyan G — Bakery Website](https://tpo-yt.github.io/KalyanG-website/)
 
 ## Contact
 - Email: ishaanseksaria@gmail.com
