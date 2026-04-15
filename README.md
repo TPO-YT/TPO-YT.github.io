@@ -9,6 +9,7 @@ I build clean, modern websites for small businesses and startups.
 
 ## Projects
 - [Kalyan G — Bakery Website](https://kalyang-kanpur.lovable.app)
+- [Menon Coaching - Coaching Website](https://menon-coaching-kanpur.lovable.app)
 
 ## Contact
 - Email: ishaanseksaria@gmail.com
