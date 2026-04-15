@@ -14,9 +14,10 @@ body {
     color: #2d3436;
     background-color: var(--bg-warm);
     overflow-x: hidden;
+    line-height: 1.6;
 }
 
-/* NEW BACKGROUND: Noticeable Warm Gradient */
+/* Animated Warm Backdrop */
 .warm-backdrop {
     position: fixed;
     top: 0; left: 0;
@@ -26,7 +27,6 @@ body {
     background-attachment: fixed;
 }
 
-/* Animation for the Backdrop */
 body::after {
     content: "";
     position: fixed;
@@ -72,7 +72,6 @@ nav { padding: 2rem; display: flex; justify-content: center; }
 
 .btn-primary:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(255, 95, 109, 0.3); }
 
-/* CONTENT BOXES */
 .container { max-width: 1000px; margin: 0 auto; padding: 0 5%; }
 .section { padding: 100px 0; }
 .section-title { text-align: center; margin-bottom: 4rem; font-size: 2.5rem; font-weight: 800; }
@@ -106,13 +105,12 @@ nav { padding: 2rem; display: flex; justify-content: center; }
     color: var(--primary);
     text-decoration: none;
     font-weight: 800;
-    border-bottom: 2px solid transparent;
     transition: 0.3s;
 }
 
-.link:hover { border-bottom: 2px solid var(--primary); }
+.link:hover { opacity: 0.7; }
 
-/* FIXED SKILLS ALIGNMENT */
+/* Skills Alignment Fixed */
 .skills-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -134,7 +132,6 @@ nav { padding: 2rem; display: flex; justify-content: center; }
 
 .skill-pill:hover { background: var(--primary); color: white; }
 
-/* REVEAL ANIMATIONS */
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
