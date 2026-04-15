@@ -94,7 +94,7 @@ nav {
     margin-top: 2rem;
 }
 
-.btn-primary, .btn-secondary {
+.btn-primary {
     padding: 0.8rem 2rem;
     border-radius: 50px;
     text-decoration: none;
@@ -110,10 +110,7 @@ nav {
 
 .btn-primary:hover { transform: scale(1.05); }
 
-.btn-secondary {
-    border: 2px solid var(--primary);
-    color: var(--primary);
-}
+
 
 /* Cards & Grid */
 .container {
